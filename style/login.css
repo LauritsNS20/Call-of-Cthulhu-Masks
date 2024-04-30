@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('name of picture here') no-repeat;
+    background: url('images/login_image.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
