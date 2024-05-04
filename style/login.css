@@ -12,16 +12,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('images/login_image.png') no-repeat;
+    background-image: url('../images/login_image.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .wrapper {
     width: 420px;
-    background: purple;  /*)transparent?(*/
-    border: 2px solid rgba(255, 255, 255, 2);
-    backdrop-filter: blur(20px);
+    background: transparent;  /*)transparent?(*/
+    border: none; /*)2px solid rgba(255, 255, 255, 2)(*/
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 10 rgba(0, 0, 0, 1);
     color: #fff;
     border-radius: 10px;
